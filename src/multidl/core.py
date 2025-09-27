@@ -1,7 +1,8 @@
 import inspect
 import re
 import shutil
-from . import Spotify, YouTube
+from .services.spotify import Spotify
+from .services.yt import YouTube
 from .term import Print
 from typing import Literal
 
